@@ -5,9 +5,15 @@
 }
 
 body{
-    background-color: rgb(39,68,136,0.5);
+    background-image: linear-gradient(blue 70%, white);
+    /* background-color: rgb(39,68,136,0.5); */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     text-align: center;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a{
@@ -19,9 +25,13 @@ li{
     list-style: none;
 }
 
+
+
 .header-picture img{
     width: 200px;
     border-radius: 50%;
+    border: 1px solid black;
+    margin: 15px;
 }
 
 header nav ul{
@@ -35,4 +45,21 @@ header nav ul{
 
 header nav ul li{
     margin: 3px 15px;
+    box-shadow: 2px 2px 1px gray;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+footer{
+    font-size: 0.7em;
+    margin: 10px;
+    color: blue;
+}
+
+footer a{
+    color: blue;
 }
