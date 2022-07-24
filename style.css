@@ -58,6 +58,14 @@ header nav ul li{
     flex: 1;
 }
 
+.contact-form{
+    color: blue;
+}
+
+.submit-btn{
+    background-color: pink;
+}
+
 footer{
     font-size: 0.7em;
     margin: 10px;

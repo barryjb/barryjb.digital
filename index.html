@@ -29,7 +29,27 @@
         <main>
             <section class="about">
                 <p>I am a Web Developer who specialises in helping small businesses generate more revenue online by having a well run website.  You work on your business, I'll work on your website.</p>
-                <p>If you would like me to work with you contact me <a href="index.html/email">here</a></p>
+                <p>If you would like me to work with you contact me <a href="mailto:enquiry@barryjb.digital">here</a></p>
+            </section>
+
+            <section class="contact">
+                <form>
+                    <div class="contact-form">
+                        <label>Name:</label>
+                        <input type="text" class="form-control" name="Name">
+                    </div>
+                    <div class="contact-form">
+                        <label>Your Email:</label>
+                        <input type="email" class="form-control" name="_replyto" required>
+                    </div>
+                    <div class="contact-form">
+                        <label>Message:</label>
+                        <textarea class="form-control" name="Message" rows="3"></textarea>
+                    </div>
+
+                    <input type="hidden" name="_honeypot" value="">
+                    <button type="submit" class="submit-btn">Send</button>
+                </form>
             </section>
         </main>
     </div>
