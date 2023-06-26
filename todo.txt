@@ -1,2 +1,11 @@
 
+
+
+
 Make "barryjb.digital" header text responsive on all screens sizes to be as big as possible.
+
+
+
+
+Have a social-bar at the bottom of section-contact
+Need to get a matching github svg for social-bar
