@@ -6,6 +6,7 @@ Make "barryjb.digital" header text responsive on all screens sizes to be as big 
 
 
 
-
+Build out contact section using trav port vid - up to css for contact-form - 1:12:00
+Sort "a tags" underline is lame.
 Have a social-bar at the bottom of section-contact
-Need to get a matching github svg for social-bar
+Need to get a matching github svg and email svg for social-bar

@@ -16,9 +16,14 @@ body{
     margin: 0 auto;
 }
 
+li{
+    list-style-type: none;
+}
+
 /* a{
     text-decoration: none;
 } */
+
 
 header{
     padding: 20px;
@@ -74,17 +79,30 @@ section h1{
     
 } */
 
-/* .social-bar{
+.contact-form{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section-contact{
+    text-align: center;
+}
+
+
+.section-contact img{
+    width: 30px;
+}
+
+/* .section-social-bar{
     
 } */
-
 .social-icons{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.section-contact img{
+.section-social-bar img{
     width: 30px;
 }
 
