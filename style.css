@@ -40,6 +40,7 @@ section{
     text-align: justify;
     line-height: 1.6;
     font-size: 1.3em;
+    margin-top: 40px;
 }
 
 section h1{
@@ -79,15 +80,62 @@ section h1{
     
 } */
 
+.section-work{
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.section-contact{
+    text-align: center;
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
 .contact-form{
     width: 100%;
     margin-top: 20px;
 }
 
-.section-contact{
-    text-align: center;
+.input50 input,
+.input100 textarea{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0);
+    background-color: rgba(230,230,230,0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
 }
 
+.input50 input:hover,
+.input100 textarea:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.input50 input:focus,
+.input100 textarea:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30,85,250,0.47);
+}
+
+.input100 textarea{
+    min-height: 100px;
+}
+
+.input100 input{
+    width: 20%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    font-size: 1.1rem;
+    color: #fff;
+    transition: .3s;
+}
+
+.input100 input:hover{
+    transform: scale(1.2);
+}
 
 .section-contact img{
     width: 30px;
