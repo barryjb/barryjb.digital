@@ -159,9 +159,13 @@ section h1{
     width: 30px;
 }
 
-/* footer{
-    
-} */
+
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 .footer-container{
     padding: 15px 0 10px 0;
@@ -172,4 +176,14 @@ section h1{
     margin: 10px 20px;
     font-size: 14px;
     font-weight: bold;
+}
+
+
+
+
+
+@media (max-width: 480px){
+    input[value="send"]{
+        font-size: 14px;
+    }
 }
